@@ -5,8 +5,7 @@
 Find all the interval dates from 2015-10-05 to 2015-10-13 by every 7 days.
 
 ``` java
- public void main(String[] args)
- {
+ public void main(String[] args) {
      IntervalFinder finder = IntervalFinder.get();
      List<IntervalFinder.DateInterval> results = finder.getDateIntervalByLength(finder.getDate("2015-10-05"), finder.getDate("2015-10-13"), 7);
      for (IntervalFinder.DateInterval inv : results) {
