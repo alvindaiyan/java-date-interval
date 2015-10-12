@@ -24,6 +24,10 @@ public class IntervalFinderTest
 
         assertTrue(results.get(0).getStartDate().equals(finder.getDate("2015-10-05")));
         assertTrue(results.get(1).getEndDate().equals(finder.getDate("2015-10-13")));
+
+        for (IntervalFinder.DateInterval inv : results) {
+            System.out.println(inv.getStartDate() + " to " + inv.getEndDate());
+        }
     }
 
     @Test

@@ -40,8 +40,7 @@ public class IntervalFinder {
 
     public Date getDate(String dateStr)
     {
-        try
-        {
+        try {
             return dateFormat.parse(dateStr);
         }
         catch (ParseException e)
