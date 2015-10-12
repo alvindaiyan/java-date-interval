@@ -97,19 +97,16 @@ public class IntervalFinder {
     public class DateInterval {
         private Date startDate, endDate;
 
-        public DateInterval(Date startDate, Date endDate)
-        {
+        public DateInterval(Date startDate, Date endDate) {
             this.startDate = startDate;
             this.endDate = endDate;
         }
 
-        public Date getStartDate()
-        {
+        public Date getStartDate() {
             return startDate;
         }
 
-        public Date getEndDate()
-        {
+        public Date getEndDate() {
             return endDate;
         }
     }
