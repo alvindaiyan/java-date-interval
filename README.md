@@ -1,5 +1,4 @@
-# Find Date Interval by Java
-
+# Find Date Interval by Java [![Build Status](https://travis-ci.org/alvindaiyan/java-date-interval.svg?branch=master)](https://travis-ci.org/alvindaiyan/java-date-interval)
 ## Find by intervals by days
 
 Find all the interval dates from 2015-10-05 to 2015-10-13 by every 7 days.
