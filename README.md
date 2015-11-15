@@ -20,4 +20,5 @@ The result will be:
 Mon Oct 05 00:00:00 NZDT 2015 to Mon Oct 12 00:00:00 NZDT 2015
 Mon Oct 12 00:00:00 NZDT 2015 to Tue Oct 13 00:00:00 NZDT 2015
 
+
 ```
